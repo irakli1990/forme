@@ -10,7 +10,7 @@ package com.forme.commonend;
 public class Main {
     public static boolean commonEnd(int[] a, int[] b) {
         if (a.length > 0 && b.length > 0) {
-            return a[a.length - 1] == b[b.length - 1];
+            return a[a.length - 1] == b[b.length - 1] || a[0] == b[0];
         }
         return false;
     }
