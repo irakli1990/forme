@@ -1,6 +1,8 @@
 package com.forme.rotateLeft3;
 
 
+import java.util.Arrays;
+
 /**
  * Given an array of ints length 3, return an array with the elements
  * "rotated left" so {1, 2, 3} yields {2, 3, 1}
@@ -22,5 +24,9 @@ public class Main {
             }
         }
         return temp;
+    }
+
+    public static void main(String[] args) {
+        System.out.println(Arrays.toString(rotateLeft3(new int[]{1,2,3,5})));
     }
 }

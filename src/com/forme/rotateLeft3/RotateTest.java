@@ -19,9 +19,10 @@ class RotateTest {
     @Test
     void rotateLeft3Test() {
         assert (Arrays.equals(new int[]{2, 3, 1}, Main.rotateLeft3(new int[]{1, 2, 3})));
+        assert (Arrays.equals(new int[]{2, 3, 5, 1}, Main.rotateLeft3(new int[]{1, 2, 3, 5})));
         assert (Arrays.equals(new int[]{11, 9, 5}, Main.rotateLeft3(new int[]{5, 11, 9})));
         assert (Arrays.equals(new int[]{0, 0, 7}, Main.rotateLeft3(new int[]{7, 0, 0})));
-        assert(Arrays.equals(new int[]{2, 1, 1}, Main.rotateLeft3(new int[]{1, 2, 1})));
-        assert(Arrays.equals(new int[]{0, 1, 0}, Main.rotateLeft3(new int[]{0, 0, 1})));
+        assert (Arrays.equals(new int[]{2, 1, 1}, Main.rotateLeft3(new int[]{1, 2, 1})));
+        assert (Arrays.equals(new int[]{0, 1, 0}, Main.rotateLeft3(new int[]{0, 0, 1})));
     }
 }
