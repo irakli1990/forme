@@ -20,6 +20,7 @@ class Dubling {
     void doubling() {
         assertEquals (new ArrayList<Integer>(Arrays.asList(2,4,6)), Main.doubling(new ArrayList<Integer>(Arrays.asList(1,2,3))));
         assertEquals (new ArrayList<Integer>(Arrays.asList()), Main.doubling(new ArrayList<Integer>(Arrays.asList())));
+        assertEquals (new ArrayList<Integer>(Arrays.asList()), Main.doubling(new ArrayList<Integer>(Arrays.asList())));
         assertEquals (new ArrayList<Integer>(Arrays.asList(2,2,2)), Main.doubling(new ArrayList<Integer>(Arrays.asList(1,1,1))));
     }
 }
